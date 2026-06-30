@@ -18,7 +18,7 @@ Este repositório integra dados oficiais de CVLI (SSPDS/CE), indicadores censit�
 
 **Hipótese exploratória:** áreas com menor IDH, menor renda e maior presença documentada de facções tendem a concentrar taxas mais elevadas de CVLI.
 
-**Escopo da análise:** 21.197 registros de CVLI em Fortaleza (2009–2025), agregados em **10 AIS**, integrados a dados de população, IDH, renda e facções em 34 bairros codificados.
+**Escopo da análise:** 21.197 registros de CVLI em Fortaleza (2009–2025), agregados nas **10 AIS do município** (5, 6, 8, 16, 17, 18, 19, 20, 21 e 22 — cobertura integral conforme Portaria 34/2026; sem recorte analítico), integrados a dados de população, IDH, renda e facções em 34 bairros codificados.
 
 ---
 
@@ -39,7 +39,7 @@ Este repositório integra dados oficiais de CVLI (SSPDS/CE), indicadores censit�
 │   └── ipece_informe_272.pdf                # Informe IPECE nº 272 (referência)
 ├── figuras/                                 # Gráficos gerados pela análise
 │   ├── grafico_01_serie_temporal_cvli.png   # Série temporal 2009–2025
-│   ├── grafico_02_taxa_cvli_por_ais.png     # Taxa de CVLI por AIS
+│   ├── grafico_02_taxa_cvli_por_ais.png     # Taxa de CVLI por AIS em Fortaleza (10 AIS)
 │   ├── grafico_03_idh_vs_taxa_cvli.png      # Dispersão IDH × taxa CVLI
 │   ├── grafico_03b_renda_vs_taxa_cvli.png   # Dispersão renda × taxa CVLI
 │   ├── grafico_04_boxplot_faccao.png        # Boxplot por presença de facção
@@ -148,11 +148,11 @@ Crescimento até o pico de 2014 (2.002 casos), queda acentuada em 2019 (654 caso
 
 ![CVLI em Fortaleza por ano (2009–2025)](figuras/grafico_01_serie_temporal_cvli.png)
 
-### Taxa de CVLI por AIS
+### Taxa de CVLI por AIS em Fortaleza
 
-Maiores taxas na AIS 16 (~1.230/100 mil), AIS 17 (~1.135/100 mil) e AIS 20 (~988/100 mil). A AIS 5 destaca-se com taxa elevada (~775/100 mil) sem registro de facção.
+Gráfico com as **10 AIS do município** (todas as unidades presentes na base da SSPDS). Maiores taxas na AIS 16 (~1.230/100 mil), AIS 17 (~1.135/100 mil) e AIS 20 (~988/100 mil). A AIS 5 destaca-se com taxa elevada (~775/100 mil) sem registro de facção.
 
-![Top 10 AIS por taxa de CVLI](figuras/grafico_02_taxa_cvli_por_ais.png)
+![Taxa de CVLI por AIS em Fortaleza](figuras/grafico_02_taxa_cvli_por_ais.png)
 
 ### IDH × taxa de CVLI
 

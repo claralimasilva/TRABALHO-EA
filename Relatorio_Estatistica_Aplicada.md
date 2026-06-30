@@ -63,7 +63,9 @@ Diante desse cenário, a presente análise assume caráter exploratório-descrit
 
 ### 3.3 Tratamento dos dados de CVLI
 
-A base original compreende **59.340** registros em todo o Ceará, dos quais **21.256** referem-se a Fortaleza em estado bruto. Após a aplicação de filtros relativos a naturezas CVLI válidas e identificação de AIS, permaneceram **21.197** registros analisáveis. Consideraram-se as naturezas homicídio doloso, roubo seguido de morte (latrocínio) e lesão corporal seguida de morte. O período analisado abrange **2009–2025**, abrangendo **10 AIS** distintas (5, 6, 8, 16, 17, 18, 19, 20, 21, 22).
+A base original compreende **59.340** registros em todo o Ceará, dos quais **21.256** referem-se a Fortaleza em estado bruto. Após a aplicação de filtros relativos a naturezas CVLI válidas e identificação de AIS, permaneceram **21.197** registros analisáveis. Consideraram-se as naturezas homicídio doloso, roubo seguido de morte (latrocínio) e lesão corporal seguida de morte. O período analisado abrange **2009–2025**.
+
+**Unidade espacial (AIS):** não houve recorte analítico para um subconjunto de AIS. A base da SSPDS para Fortaleza contém registros em **10 AIS** — que correspondem a **todas** as Áreas Integradas de Segurança do município segundo a Portaria Normativa nº 034/2026-GS/SSPDS (AIS 5, 6, 8, 16, 17, 18, 19, 20, 21 e 22). A numeração segue o esquema estadual (vinculado aos BPM) e não é sequencial de 1 a 10; as demais AIS do Ceará (34 no total em 2026) abrangem outros municípios. Três registros em “AIS Não Identificada (Fortaleza)” foram excluídos por ausência de AIS codificada.
 
 **Perfil das vítimas (Fortaleza, n = 21.197):**
 
@@ -213,9 +215,9 @@ O gráfico de linha evidencia a evolução anual dos CVLIs em Fortaleza. Observa
 
 ### 5.2 Taxa de CVLI por AIS (por 100 mil habitantes)
 
-![Top 10 AIS por taxa de CVLI](figuras/grafico_02_taxa_cvli_por_ais.png)
+![Taxa de CVLI por AIS em Fortaleza](figuras/grafico_02_taxa_cvli_por_ais.png)
 
-O gráfico de barras horizontais apresenta as dez AIS do recorte analítico. As maiores taxas concentram-se na **AIS 16** (~1.230/100 mil), **AIS 17** (~1.135/100 mil) e **AIS 20** (~988/100 mil), todas com facção documentada e IDH baixo. A **AIS 5** destaca-se com taxa elevada (~775/100 mil) sem registro de facção, indicando que elevada violência letal não se restringe exclusivamente às áreas com crime organizado codificado.
+O gráfico de barras horizontais apresenta as **dez AIS de Fortaleza** (cobertura integral do município na base analisada, n = 10). As maiores taxas concentram-se na **AIS 16** (~1.230/100 mil), **AIS 17** (~1.135/100 mil) e **AIS 20** (~988/100 mil), todas com facção documentada e IDH baixo. A **AIS 5** destaca-se com taxa elevada (~775/100 mil) sem registro de facção, indicando que elevada violência letal não se restringe exclusivamente às áreas com crime organizado codificado.
 
 ### 5.3 Associação entre IDH e taxa de CVLI
 
