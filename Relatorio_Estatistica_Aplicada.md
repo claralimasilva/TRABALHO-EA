@@ -4,15 +4,11 @@
 
 **Trabalho de Estatística Aplicada** — Relatório elaborado com base no notebook `Trabalho de Estatistica Aplicada.ipynb`.
 
----
-
 ## Resumo
 
 O presente estudo investiga a associação entre os índices de Crimes Violentos Letais e Intencionais (CVLI), indicadores de vulnerabilidade socioeconômica — Índice de Desenvolvimento Humano (IDH) de 2010 e renda média de 2022 — e a presença documentada de facções criminosas nas Áreas Integradas de Segurança (AIS) de Fortaleza. Foram analisados 21.197 registros de CVLI no período de 2009 a 2025, integrados a dados censitários e a uma codificação qualitativa de presença de facções em 34 bairros. Os resultados indicam concentração espacial da violência letal nas AIS periféricas de menor IDH e menor renda, com correlações negativas de Spearman entre taxa de CVLI e IDH (ρ ≈ −0,855) e entre taxa de CVLI e renda (ρ ≈ −0,842). Nove das dez AIS analisadas apresentam presença documentada de facções; contudo, o teste de Mann-Whitney não evidenciou diferença estatisticamente significativa entre as medianas das taxas de CVLI nas AIS com e sem facção (U = 5,0; p = 0,5000), em razão do desbalanceamento extremo dos grupos (9 vs. 1) e do reduzido número de unidades analíticas (n = 10). Conclui-se que os dados são compatíveis com a sobreposição entre exclusão social territorial e concentração de homicídios, sem que se possa inferir causalidade direta entre presença de facções e taxa de CVLI.
 
 **Palavras-chave:** CVLI; violência urbana; IDH; crime organizado; Áreas Integradas de Segurança; Fortaleza.
-
----
 
 ## 1. Introdução
 
@@ -22,8 +18,6 @@ Paralelamente, evidências documentadas na imprensa e em relatórios institucion
 
 Este trabalho tem por objetivo examinar, no nível das AIS de Fortaleza, a associação entre taxa de CVLI, IDH, renda média e presença documentada de facções criminosas, contribuindo para a discussão acadêmica e técnica sobre desigualdade intraurbana e violência letal na capital cearense.
 
----
-
 ## 2. Revisão contextual
 
 A literatura sobre violência urbana no Brasil enfatiza a persistência de padrões territoriais de exclusão social, nos quais indicadores de desenvolvimento humano e renda funcionam como marcadores estruturais de vulnerabilidade (IPECE, 2025; PNUD, 2024). Em Fortaleza, o Informe nº 272 do IPECE evidencia ampla desigualdade de renda entre bairros no Censo de 2022, com renda média municipal variando entre R$ 1.272,25 (Genibaú) e R$ 14.775,21 (Guararapes).
@@ -31,8 +25,6 @@ A literatura sobre violência urbana no Brasil enfatiza a persistência de padr�
 No campo da segurança pública, a Secretaria da Segurança Pública e Defesa Social do Ceará (SSPDS/CE) disponibiliza séries de CVLI agregadas por AIS, unidade espacial redefinida em portarias sucessivas (SUPESP/SSPDS, 2026). A literatura e a imprensa regional têm documentado a presença de facções como Comando Vermelho (CV), Guardiões do Estado (GDE) e Terceiro Comando Puro (TCP) em bairros periféricos, embora a mensuração quantitativa dessa presença permaneça limitada por ausência de base oficial padronizada.
 
 Diante desse cenário, a presente análise assume caráter exploratório-descritivo e inferencial, reconhecendo limitações temporais, espaciais e de causalidade que serão explicitadas na seção metodológica.
-
----
 
 ## 3. Metodologia
 
@@ -87,11 +79,11 @@ Foram normalizados **120–123** bairros conforme as bases de população, IDH, 
 
 ### 3.5 Taxa de CVLI
 
-<div class="formula" style="text-align: center; margin: 1.2em 0; font-family: 'Times New Roman', serif; font-size: 11pt;">
+<div class="formula">
   taxa<sub>cvli_100k</sub> =
-  <span style="display: inline-block; text-align: center; vertical-align: middle; margin: 0 0.2em;">
-    <span style="display: block; border-bottom: 1px solid #000; padding: 0 0.4em;">cvli<sub>total</sub></span>
-    <span style="display: block; padding: 0 0.4em;">população</span>
+  <span class="formula-frac">
+    <span class="formula-num">cvli<sub>total</sub></span>
+    <span class="formula-den">população</span>
   </span>
   × 100&nbsp;000
 </div>
@@ -111,8 +103,6 @@ Realizaram-se análises descritivas da série temporal e da distribuição espac
 - **Fronteiras das AIS:** redefinidas em 2017 e 2026 (mapeamento da Portaria 34/2026).
 - **Facções:** codificação manual e parcial; nem todo bairro foi coberto.
 - **Causalidade:** correlação não implica causalidade; variáveis confundidoras são possíveis.
-
----
 
 ## 4. Resultados
 
@@ -203,8 +193,6 @@ O desbalanceamento extremo dos grupos (9 vs. 1) e o reduzido número de unidades
 
 6. **Série temporal:** a queda abrupta em 2019 (654 casos) pode refletir mudanças metodológicas de registro, políticas de segurança ou dinâmica do crime organizado — hipóteses não confirmáveis apenas com análise descritiva.
 
----
-
 ## 5. Discussão
 
 ### 5.1 Série temporal de CVLI (2009–2025)
@@ -255,8 +243,6 @@ Os resultados convergem para um quadro de concentração da violência letal em 
 
 A exceção representada pela AIS 5 (Centro) sugere que dinâmicas de violência urbana não se reduzem ao domínio territorial de facções, podendo envolver outros fatores — criminalidade de oportunidade, fluxo populacional, comércio informal, entre outros — não capturados neste recorte.
 
----
-
 ## 6. Conclusões
 
 A análise integrada de dados da SSPDS (CVLI), Fortaleza Dados Abertos (IDH e população de 2010), IPECE/IBGE (renda por bairro de 2022), contexto IDHM 2024 (PNUD) e codificação qualitativa de facções indica que a violência letal e intencional em Fortaleza concentra-se nas AIS de periferia com menor IDH, menor renda e com presença documentada de organizações criminosas — em especial as AIS 16, 17, 19, 20 e 21. O Comando Vermelho (AIS 17) e disputas CV/TCP (AIS 20) aparecem com destaque nas fontes consultadas.
@@ -267,8 +253,6 @@ Em conjunto, os dados são compatíveis com as consequências do *estado paralel
 
 > **Observação final:** correlação não implica causalidade. Pobreza, exclusão social, políticas públicas insuficientes, mudanças nas fronteiras das AIS e possíveis vieses de registro (como a queda abrupta de 2019) podem confundir a relação observada.
 
----
-
 ## Referências
 
 - SSPDS/CE. *CVLI 2009–2025*. Disponível em: https://www.sspds.ce.gov.br/
@@ -278,7 +262,5 @@ Em conjunto, os dados são compatíveis com as consequências do *estado paralel
 - SUPESP/SSPDS. *Áreas Integradas de Segurança (AIS)*. Portaria 34/2026.
 - Diário do Nordeste; O Povo; G1 Ceará; Polícia Civil do Ceará (matérias citadas em `dados/faccoes_bairros.xlsx`).
 - IBGE. *Censo Demográfico 2010 e 2022*.
-
----
 
 *Relatório elaborado com base nos outputs e interpretações do notebook `Trabalho de Estatistica Aplicada.ipynb`.*
